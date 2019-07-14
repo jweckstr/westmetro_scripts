@@ -8,7 +8,7 @@ from gtfspy.routing.journey_data import JourneyDataManager
 from gtfspy.routing.multi_objective_pseudo_connection_scan_profiler import MultiObjectivePseudoCSAProfiler
 from gtfspy.routing.node_profile_analyzer_time_and_veh_legs import NodeProfileAnalyzerTimeAndVehLegs
 from gtfspy.util import makedirs
-from research.westmetro_paper.scripts.generic_settings import *
+from scripts.generic_settings import *
 """
 Generic travel time matrix pipeline:
 Importation of gtfs database

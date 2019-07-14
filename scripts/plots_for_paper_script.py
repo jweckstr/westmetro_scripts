@@ -16,9 +16,9 @@ import pandas as pd
 
 from gtfspy.mapviz_using_smopy_helper import add_colorbar2
 
-from research.westmetro_paper.scripts.map_plots import *
-from research.westmetro_paper.scripts.basestats import *
-from research.westmetro_paper.scripts.zone_analysis import *
+from scripts.map_plots import *
+from scripts.basestats import *
+from scripts.zone_analysis import *
 from gtfspy.gtfs import GTFS
 
 output_path = "/home/clepe/git/7589451nktxprytvbdx/figs"

@@ -5,7 +5,7 @@ import networkx as nx
 from gtfspy.gtfs import GTFS
 from gtfspy.util import timeit
 
-from research.westmetro_paper.scripts.all_to_all_settings import *
+from scripts.all_to_all_settings import *
 
 
 def attach_database(conn, other_db_path, name="other"):

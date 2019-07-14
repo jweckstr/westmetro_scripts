@@ -22,10 +22,10 @@ import gtfspy.smopy_plot_helper
 from gtfspy.gtfs import GTFS
 from gtfspy.util import difference_of_pandas_dfs, makedirs
 from gtfspy.mapviz_using_smopy_helper import plot_stops_with_categorical_attributes
-from research.westmetro_paper.scripts.all_to_all_settings import *
-from research.westmetro_paper.scripts.all_to_all_analyzer import AllToAllDifferenceAnalyzer
+from scripts.all_to_all_settings import *
+from scripts.all_to_all_analyzer import AllToAllDifferenceAnalyzer
 from gtfspy.routing.journey_data_analyzer import JourneyDataAnalyzer
-from research.westmetro_paper.scripts.all_to_all_analyzer import stops_to_exclude
+from scripts.all_to_all_analyzer import stops_to_exclude
 
 # ["#8dd3c7", "#ffffb3", "#bebada", "#fb8072", "#80b1d3"]
 zone_colors = ["#66c2a5", "#fc8d62", "#8da0cb", "#e78ac3", "#a6d854"]

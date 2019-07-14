@@ -15,9 +15,9 @@ from geopandas import GeoDataFrame
 
 from gtfspy.routing.journey_data import JourneyDataManager, DiffDataManager
 from gtfspy.routing.journey_data_analyzer import JourneyDataAnalyzer
-from research.westmetro_paper.scripts.all_to_all_settings import *
-from research.westmetro_paper.scripts.all_to_all_analyzer import AllToAllDifferenceAnalyzer
-from research.westmetro_paper.scripts.all_to_all_analyzer import stops_to_exclude
+from scripts.all_to_all_settings import *
+from scripts.all_to_all_analyzer import AllToAllDifferenceAnalyzer
+from scripts.all_to_all_analyzer import stops_to_exclude
 
 from gtfspy.mapviz_using_smopy_helper import *
 from gtfspy.mapviz import plot_as_routes, plot_route_network_from_gtfs, plot_stops_with_attributes

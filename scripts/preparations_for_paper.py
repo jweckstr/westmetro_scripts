@@ -6,7 +6,7 @@ replace_stop_i_with_stop_pair_i
 """
 import geopandas as gpd
 from shapely.geometry import Point
-from research.westmetro_paper.scripts.all_to_all_settings import *
+from scripts.all_to_all_settings import *
 from gtfspy.gtfs import GTFS
 from sqlite3 import OperationalError
 

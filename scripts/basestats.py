@@ -7,10 +7,10 @@ from gtfspy.util import timeit
 from gtfspy.networks import walk_transfer_stop_to_stop_network
 from gtfspy.util import makedirs
 from gtfspy.route_types import ROUTE_TYPE_TO_SHORT_DESCRIPTION
-from research.westmetro_paper.scripts.all_to_all_analyzer import stops_to_exclude
+from scripts.all_to_all_analyzer import stops_to_exclude
 
-from research.westmetro_paper.scripts.all_to_all_settings import *
-# TODO: filter area
+from scripts.all_to_all_settings import *
+
 if __name__ == "__main__":
     master_df = None
     ignore_stops = stops_to_exclude(return_sqlite_list=True)

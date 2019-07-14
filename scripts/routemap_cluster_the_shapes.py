@@ -17,8 +17,8 @@ from geopandas import GeoDataFrame, sjoin
 
 from gtfspy.routing.journey_data import JourneyDataManager, DiffDataManager
 from gtfspy.routing.journey_data_analyzer import JourneyDataAnalyzer
-from research.westmetro_paper.scripts.all_to_all_settings import *
-from research.westmetro_paper.scripts.all_to_all_analyzer import AllToAllDifferenceAnalyzer
+from scripts.all_to_all_settings import *
+from scripts.all_to_all_analyzer import AllToAllDifferenceAnalyzer
 
 from gtfspy.mapviz import *
 from gtfspy.colormaps import *

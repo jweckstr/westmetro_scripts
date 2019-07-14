@@ -1,6 +1,7 @@
 import sys
-from research.westmetro_paper.scripts.all_to_all import AllToAllRoutingPipeline
-from research.westmetro_paper.scripts.util import split_into_equal_length_parts
+import pandas
+from scripts.all_to_all import AllToAllRoutingPipeline
+from scripts.util import split_into_equal_length_parts
 
 if __name__ == "__main__":
     _, slurm_array_i, slurm_array_length = sys.argv

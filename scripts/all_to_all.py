@@ -9,8 +9,8 @@ from gtfspy.networks import walk_transfer_stop_to_stop_network
 from gtfspy.util import makedirs
 from gtfspy.routing.connection import Connection
 from gtfspy.routing.journey_data import JourneyDataManager, DiffDataManager
-from research.westmetro_paper.scripts.util import split_into_equal_length_parts
-from research.westmetro_paper.scripts.all_to_all_settings import *
+from scripts.util import split_into_equal_length_parts
+from scripts.all_to_all_settings import *
 
 """
 Loops trough a set of target nodes, runs routing for them and stores results in a database

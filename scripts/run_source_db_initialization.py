@@ -4,7 +4,7 @@ from gtfspy.gtfs import GTFS
 from sqlite3 import IntegrityError
 
 from gtfspy.osm_transfers import compute_stop_to_stop_osm_walk_distances_python
-from research.westmetro_paper.scripts.all_to_all_settings import *
+from scripts.all_to_all_settings import *
 from gtfspy.filter import FilterExtract
 from gtfspy.import_gtfs import import_gtfs
 from gtfspy.import_validator import ImportValidator

@@ -1,7 +1,7 @@
 from gtfspy.gtfs import GTFS
 
 from gtfspy.routing.journey_data_analyzer import JourneyDataAnalyzer
-from research.westmetro_paper.scripts.generic_settings import *
+from scripts.generic_settings import *
 
 
 
